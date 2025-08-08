@@ -55,9 +55,18 @@ padding-block-end: 1.5em;
 
 
 /*medeia queries*/
-@media  (max-width: 600px) 
+@media all and (max-width: 600px) and (max-height: 800px) {
+  .QR-project {margin: 1.5rem; min-height: 25em ;};
+  
+  .QR-CH{min-height: 23em} 
+
+  .QR-Header{margin-inline: 1.5em; padding: 15px 0 10px;}
+  
+}
 {.QR-project {margin: 1.5rem; min-height: 20em ;};
+
  .QR-CH{min-height: 18em} 
+ 
  .QR-Header{margin-inline: 1.5em; padding: 15px 0 10px;}}
 
 /*container*/
