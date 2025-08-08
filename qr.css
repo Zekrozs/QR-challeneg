@@ -6,7 +6,10 @@ body {
   
   font-family: 'Outfit', sans-serif;
   background-color: hsl(212, 45%, 89%);
-  width: 1440px ;
+  height: 100vh;
+  display: flex;justify-content: center; align-items: center;
+
+  display: flex;justify-content: center; align-items: center;
 }
 
 img {
@@ -28,7 +31,7 @@ position: relative; left: 22px;
 padding-bottom: 50px; opacity: 0.9;
 }
 
-.QR-project{margin: 50px;}
+.QR-project{margin: 50px; }
 
 .attribution{margin-top: 20px; position: relative; left: 35px;}
 
