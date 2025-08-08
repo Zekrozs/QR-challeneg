@@ -1,12 +1,17 @@
 *{box-sizing: border-box;
-padding: 0%;
-margin: 0%;}
+padding: 0;
+margin: 0;}
+
+:root {--light-blue: hsl(212, 45%, 89%);}
+:root {--dark-blue: hsl(218, 44%, 22%);}
+:root {--grayish-blue: hsl(216, 15%, 48%);}
+:root {--white: hsl(0, 0%, 100%);}
 
 body {
   
   font-family: 'Outfit', sans-serif;
-  background-color: hsl(212, 45%, 89%);
-  min-height: 100vw;
+  background-color: var(--light-blue);
+  min-height: 100vh;
   display: flex;justify-content: center; align-items: center;
   flex-direction: column;
 
@@ -21,19 +26,19 @@ img {
 .QR-image  img{border-radius: 16px;}
 
 .QR-CH .QR-Header{padding-top: 30px;
-padding-bottom: 25px; position: relative; left: 22px; }
+padding-bottom: 25px; margin-inline-start: 2.5em; }
 
 
 
 
 .QR-CH  .QR-par {
-position: relative; left: 22px; 
-padding-bottom: 50px; opacity: 0.9;
+margin-inline-start: 2.5em; 
+padding-inline-start: 0.2em; padding-inline-end: 0.2em; padding-bottom: 1.5em; opacity: 0.9;
 }
 
-.QR-project{margin: 50px; display: inline-block;} 
+.QR-project{margin: 50px; height: 50em;} 
 
-
+.QR-CH{height: 52em;}
 
 
 /* Utility */
@@ -43,7 +48,7 @@ padding-bottom: 50px; opacity: 0.9;
 
 /*container*/
 .container {max-width: 500px;
-  background-color: white;
+  background-color: var(--white);
   padding: 23px;  border-radius: 24px;
 
 }
@@ -53,14 +58,14 @@ padding-bottom: 50px; opacity: 0.9;
 
 /*texts*/
 .text-xl {
- color: hsl(218, 44%, 22%);
+ color: var(--dark-blue);
  font-weight: 700;
-  
+  font-size: 1.6em;
 }
 
 .text-sm {
-  font-size: 23px;
-  color: hsl(216, 15%, 48%);
+  font-size: 22px;
+  color: var(--grayish-blue);
   font-weight: 400;
 
   
