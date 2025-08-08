@@ -6,7 +6,7 @@ body {
   
   font-family: 'Outfit', sans-serif;
   background-color: hsl(212, 45%, 89%);
-  min-height: 100vh;
+  min-height: 100vw;
   display: flex;justify-content: center; align-items: center;
 
 }
@@ -66,5 +66,4 @@ padding-bottom: 50px; opacity: 0.9;
 }
 .text-center {
  text-align: center;
-
 }
