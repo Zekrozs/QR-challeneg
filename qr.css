@@ -7,7 +7,7 @@ margin: 0;}
   --grayish-blue: hsl(216, 15%, 48%);
 --white: hsl(0, 0%, 100%);}
 
-
+a {text-decoration: none;}
 
 body {
   
@@ -45,7 +45,7 @@ padding-block-end: 1.5em;
 .QR-CH{min-height: 52em;}
 
 .attribution {
-  font-size: 0.8em;
+ 
  margin-inline-end: 7em;
  font-size: 1em;
  padding-block-start: 2em;
@@ -55,19 +55,25 @@ padding-block-end: 1.5em;
 
 
 /*medeia queries*/
-@media all and (max-width: 600px) and (max-height: 800px) {
-  .QR-project {margin: 1.5rem; min-height: 25em ;};
+@media all and (max-width: 600px) and (max-height: 900px) {
+  .QR-project { min-height: 10em; margin:0.7em }
   
   .QR-CH{min-height: 23em} 
-
-  .QR-Header{margin-inline: 1.5em; padding: 15px 0 10px;}
-  
-}
-{.QR-project {margin: 1.5rem; min-height: 20em ;};
-
- .QR-CH{min-height: 18em} 
  
- .QR-Header{margin-inline: 1.5em; padding: 15px 0 10px;}}
+.attribution {
+  font-size: 0.8em;
+  margin-inline-end: 0.7em;
+  padding-block-start: 1em;
+}
+
+ .container-sm .QR-Header{font-size:19px}
+
+.container-sm .QR-par{font-size:19px}
+ 
+ .container-sm{ margin-inline-end:50px !important;}}
+  
+
+
 
 /*container*/
 .container {max-width: clamp(300px, 100%, 500px);
