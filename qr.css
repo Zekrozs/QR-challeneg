@@ -8,7 +8,7 @@ body {
   background-color: hsl(212, 45%, 89%);
   min-height: 100vh;
   display: flex;justify-content: center; align-items: center;
-align-items: center;
+
 }
 
 img {
@@ -66,4 +66,5 @@ padding-bottom: 50px; opacity: 0.9;
 }
 .text-center {
  text-align: center;
+
 }
