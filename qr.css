@@ -55,7 +55,7 @@ padding-block-end: 1.5em;
 
 
 /*medeia queries*/
-@media all and (max-width: 600px) and (max-height: 900px) {
+@media all and (max-width: 600px)  {
   .QR-project { min-height: 10em; margin:0.7em }
   
   .QR-CH{min-height: 23em} 
@@ -70,7 +70,7 @@ padding-block-end: 1.5em;
 
 .container-sm .QR-par{font-size:19px}
  
- .container-sm{ margin-inline-end:50px !important;}}
+ .container-sm{ margin-inline-end:50px}}
   
 
 
